@@ -22,3 +22,14 @@ def multiply(array)
   total
 end 
 
+def power(a,b)
+  a ** b
+end 
+
+def factorial(num)
+  if num == 0
+    1
+  else   
+    num * factorial(num - 1)
+  end
+end
